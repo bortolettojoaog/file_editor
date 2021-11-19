@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* -Início Reset Padrão Navegador- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lato', serif;
+}
+
+html, body { height: 100%; }
+
+body { background-color: #fff; font-size: 16px; }
+
+html { scroll-behavior: smooth; }
+
+/* -Final Reset Padrão Navegador- */
+
+
+/* -Início do BOOT CSS- */
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+/* -Final do BOOT CSS- */
+
+
+/* -Início da Estização- */
+
+header {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .8);
+    border-bottom: 2px solid orange;
+}
+
+header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    text-align: left;
+}
+
+.right {
+    width: 50%;
+    text-align: right;
+}
+
+.left .logo {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 300;
+}
+
+.right ul {
+    list-style-type: none;
+}
+
+.right ul li {
+    display: inline-block;
+}
+
+.right li a {
+    padding: 0 15px;
+    color: #fff;
+    font-size: 1.0rem;
+    font-weight: 300;
+}
+
+.list-files {
+    margin-top: 30px;
+}
+
+.list-files .title {
+    position: relative;
+    text-align: center;
+}
+
+.list-files .title .line {
+    position: absolute;
+    height: .2rem;
+    width: 100%;
+    top: .9rem;
+    background-color: orange;
+}
+
+.title h2 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    background-color: white;
+    margin: 0 auto;
+    letter-spacing: .2rem;
+}
+
+.list-files .buttons {
+    text-align: center;
+}
+
+.list-files-single {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.list-files-single a {
+    color: #333333;
+}
+
+#area {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#area h2 {
+    padding: 10px;
+    color: #455a64;
+    text-align: center;
+    font-weight: 400;
+}
+
+#area form {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+#area form h2 {
+    text-align: left;
+    padding: 0;
+    color: #333333;
+}
+
+#area form h2 > span { color: orange; }
+
+#area form textarea {
+    margin-top: 8px;
+    width: 100%;
+    height: 40rem;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#area form input[type=submit] {
+    background: orange;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, orange);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, orange); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0.8rem 4rem;
+    border: 0;
+    margin-top: 10px;
+    border-radius: .5rem;
+    color: white;
+    font-size: 1rem;
+}
+
+/* -Final da Estização- */
