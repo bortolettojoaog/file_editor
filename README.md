@@ -1,6 +1,6 @@
 # file_editor
 
-Simple File Editor
+Simple file editor
 
 ## Icons
 
