@@ -14,7 +14,7 @@
     - [Running the project](#Running-the-project)
 - Tests,
 - Technologies,
-- Icons,
+- Icons.
 
 <br/>
 
