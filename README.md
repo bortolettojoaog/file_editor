@@ -12,7 +12,7 @@
 - [How to use](#How-to-use)
     - [Prerequisites](#Prerequisites)
     - [Running the project](#Running-the-project)
-- [Tests](#Tests)
+- [Tests](✔️ #Tests)
 - [Technologies](#Technologies)
 - [Icons](#Icons)
 
