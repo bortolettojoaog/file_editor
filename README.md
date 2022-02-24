@@ -70,6 +70,8 @@ $ code .
 The following tools were used in building the project:
 
 - [PHP](https://www.php.net/downloads.php)
+- [HTML](https://pt.wikipedia.org/wiki/HTML)
+- [CSS](https://pt.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [XAMPP](https://www.apachefriends.org/pt_br/index.html)
 
 <br/>
